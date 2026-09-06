@@ -1,0 +1,60 @@
+/*Mengatur tampilan dasar seluruh halaman */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* Mengatur tampilan header*/
+header {
+  background: #800000;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/*Mengatur tampilan navigation*/
+nav {
+  background: #333333;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+/*Mengatur tampilan link navigation*/
+nav a {
+  color: white;
+  margin: 0 15px;
+}
+
+/*Mengatur tampilan article*/
+article {
+  background: white;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 25px;
+  border: 1px solid #cccccc;
+}
+
+/*Menghilangkan jarak atas pada judul article*/
+article h2 {
+  margin-top: 0;
+}
+
+/*Memberikan jarak antar item dari "keahlian/minat" */
+article li {
+  margin-bottom: 8px;
+}
+
+/*Mengatur warna link pada isi article*/
+a {
+  color: #800000;
+}
+
+/*Mengatur tampilan bagian footer*/
+footer {
+  background: #333333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
